@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  header, footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+  }
+  
+  .section {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .section:hover {
+    transform: scale(1.05);
+  }
+  
+  .section h2 {
+    text-decoration: underline;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
